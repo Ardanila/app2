@@ -8,7 +8,7 @@ let cart = [];
 // Проверим, является ли пользователь админом. 
 // В реальном случае вы можете проверять это на сервере через user.id.
 // Допустим, что adminIds хранит список айди админов.
-const adminIds = [123456789]; 
+const adminIds = [519634372]; 
 const user = tg.initDataUnsafe.user;
 const isAdmin = user && adminIds.includes(user.id);
 
