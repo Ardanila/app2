@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    background-color: var(--tg-theme-bg-color, #ffffff);
+    color: var(--tg-theme-text-color, #000000);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    margin: 0 0 10px 0;
+    color: var(--tg-theme-text-color, #000000);
+}
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product-item {
+    border: 1px solid var(--tg-theme_hint_color, #ccc);
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+    background-color: var(--tg-theme-secondary-bg-color, #f5f5f5);
+}
+
+.product-item h3 {
+    margin: 0 0 5px 0;
+}
+
+.product-item p {
+    margin: 0 0 10px 0;
+    color: var(--tg-theme-hint_color, #555);
+}
+
+.product-item button {
+    background-color: var(--tg-theme-button-color, #0088cc);
+    color: var(--tg-theme-button-text-color, #ffffff);
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#cart {
+    margin-top: 20px;
+    border-top: 2px solid var(--tg-theme_hint_color, #ccc);
+    padding-top: 10px;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+#cart-items li {
+    margin-bottom: 5px;
+    color: var(--tg-theme-text-color, #000000);
+}
+
+#checkout-btn {
+    background-color: var(--tg-theme-button-color, #0088cc);
+    color: var(--tg-theme-button-text-color, #ffffff);
+    border: none;
+    border-radius: 3px;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#admin-panel {
+    margin-top: 20px;
+    border-top: 2px solid var(--tg-theme_hint_color, #ccc);
+    padding-top: 10px;
+    background-color: var(--tg-theme-bg-color, #ffffff);
+}
+
+.admin-product-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.admin-product-item input[type="text"], 
+.admin-product-item input[type="number"] {
+    padding: 5px;
+    border: 1px solid var(--tg-theme_hint_color, #ccc);
+    border-radius: 3px;
+    width: 150px;
+    color: var(--tg-theme-text-color, #000000);
+    background-color: var(--tg-theme-secondary-bg-color, #f5f5f5);
+}
+
+.admin-product-item button {
+    background-color: var(--tg-theme-button-color, #0088cc);
+    color: var(--tg-theme-button-text-color, #ffffff);
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#new-product-form {
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+#new-product-form input[type="text"], 
+#new-product-form input[type="number"] {
+    padding: 5px;
+    border: 1px solid var(--tg-theme_hint_color, #ccc);
+    border-radius: 3px;
+    width: 150px;
+    color: var(--tg-theme-text-color, #000000);
+    background-color: var(--tg-theme-secondary-bg-color, #f5f5f5);
+}
+
+#new-product-form button {
+    background-color: var(--tg-theme-button-color, #0088cc);
+    color: var(--tg-theme-button-text-color, #ffffff);
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
